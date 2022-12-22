@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materialize</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Materialize CSS-->
+    <link rel="stylesheet" href="css/materialize.css">
+
+    <link rel="stylesheet" href="css/custom.css">
+    
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper container">
+          <div class="col s12">
+            <a href="#!" class="breadcrumb">O que é?</a>
+            <a href="#!" class="breadcrumb">Componentes</a>
+            <a href="#!" class="breadcrumb right"><i class="tiny material-icons">help_outline</i>Quer saber mais</a>
+          </div>
+        </div>
+      </nav>
+      <div class="right">
+    <img src="img/Materialize.jpg" class="responsive-img">
+</div>
+
+
+    <div class="container">
+        <h1>O que é Materialize</h1>
+    </div>
+   <div class="container"> 
+    <div class="card-panel  blue   z-depth-0 flow-text"> 
+    <p>Maerialize é um framework Frond-End, ele surgiu atráves de um projeto desnvolvido pela Google e é inspirado no Material Design (desing utilizado no sistema operacional para smartphones Android desde a versão 5.0)
+       Vale a pena resaltar que seus componentes são bem semelhantes aos do seu amigo Bootstrap. Materialize apresenta opções com disgn mais leve. Isto faz com que seu projeto fique visualmente mais agradável. 
+    </p>
+    </div>
+    </div>
+    <div class="container">
+    <blockquote>
+      Afinal de contas, por quê usar materialize? Quais são seus béneficios?
+    </blockquote>
+</div>
+    <div class="row container" >
+        <div class="card-panel s12 m6 l6 red white-text">
+            O Materialize pode ser usado para tornar o desenvolvimento de sites e sistemas online muito mais dinâmico e fácil.
+             É considerado por muitos uma alternativa ao tradicional Bootstrap, um dos frameworks mais conhecidos.</div>
+
+        <div class="card-panel s12 m6 l6 blue white-text">O framework Materialize oferece uma grande variedade de beneficios, o que explica o seu sucesso entre os programadores.</div>
+       
+    </div>
+
+    <div class="row container">
+        <div class="card-panel s12 red">O que é materialize
+            Dessa forma, podemos dizer que o Materialize nada mais é do que um framework, 
+            que pode ser usado para tornar o desenvolvimento de sites e sistemas online muito mais dinâmico e fácil. É considerado por muitos uma alternativa ao tradicional Bootstrap, um dos frameworks mais conhecidos.</div>
+        <div class="card-panel s12 green">O que é materialize
+            Dessa forma, podemos dizer que o Materialize nada mais é do que um framework, que pode ser usado para tornar o desenvolvimento de sites e sistemas online muito mais dinâmico e fácil. É considerado por muitos uma alternativa ao tradicional Bootstrap, um dos frameworks mais conhecidos.</div>
+    </div>
+
+    <div class="row">
+        <div class="col s6 yellow">Em linguística, a noção de texto é ampla e ainda aberta a uma definição mais precisa. Grosso modo, pode ser entendido como manifestação linguística das ideias de um autor, que serão interpretadas pelo leitor de acordo com seus conhecimentos linguísticos e culturais. Seu tamanho é variável.          
+     </div>
+     <div class="col s6 blue hoverable">
+        Em linguística, a noção de texto é ampla e ainda aberta a uma definição mais precisa. Grosso modo, pode ser entendido como manifestação linguística das ideias de um autor, que serão interpretadas pelo leitor de acordo com seus conhecimentos linguísticos e culturais. Seu tamanho é variável.
+     </div>
+    </div>
+
+
+
+
+
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+    <!--Materialize JS-->
+    <script src="js/materialize.js"></script>
+</body>
+</html>
