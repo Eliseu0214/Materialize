@@ -85,10 +85,10 @@
     <!-- Collections ou listas -->
     <!-- É uma ferrmenta que ajuda para fazer lista, os exemplos estão aqui em baixo: -->
 
-    <div class="collection">
+    <div class="collection container">
         <h1>Listas</h1>
         <a href="#!" class="collection-item">Eliseu</a> 
-        <a href="#!" class="collecion-item active">Eliseu</a> 
+        <a href="#!" class="collection-item active">Eliseu</a>
         <a href="#!" class="collection-item">Eliseu</a> 
     </div>
 
