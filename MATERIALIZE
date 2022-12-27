@@ -32,7 +32,7 @@
         <h1>O que é Materialize</h1>
     </div>
    <div class="container"> 
-    <div class="card-panel  blue   z-depth-0 flow-text"> 
+    <div class="card-panel  red lighten-2   z-depth-0 flow-text"> 
     <p>Maerialize é um framework Frond-End, ele surgiu atráves de um projeto desnvolvido pela Google e é inspirado no Material Design (desing utilizado no sistema operacional para smartphones Android desde a versão 5.0)
        Vale a pena resaltar que seus componentes são bem semelhantes aos do seu amigo Bootstrap. Materialize apresenta opções com disgn mais leve. Isto faz com que seu projeto fique visualmente mais agradável. 
     </p>
@@ -86,11 +86,93 @@
     <!-- É uma ferrmenta que ajuda para fazer lista, os exemplos estão aqui em baixo: -->
 
     <div class="collection container">
+        
         <h1>Listas</h1>
+        <div class="card-panel blue white-text ">
+            <p>Lista também são muito importantes para que aja uma organização, certo? Pois bem, o Materialize te disponibiliza com que o desenvolvedor crie listas. Veja o exemplo abaixo</p>
+        </div>
+
         <a href="#!" class="collection-item">Eliseu</a> 
         <a href="#!" class="collection-item active">Eliseu</a>
         <a href="#!" class="collection-item">Eliseu</a> 
     </div>
+    
+    <div class=" collection container">
+    <h1>Badges/Notificações</h1>
+    <div class=" card-panel blue white-text">
+        <p>Badges é um componente do Materialize que auxilia no desenvolvimento de menssagens e notificações. Os Badges podem notificá-lo de que há mensagens ou notificações novas ou não lidas. 
+            Veja no exemplo abaixo:
+        </p>
+    </div>
+    
+      <a href="#!" class="collection-item"><span class="new badge red" data-badge-caption="Menssagens"> 9</span>Claudineia</a> 
+      <a href="#!" class="collection-item"><span class="new badge green" data-badge-caption="Menssagens"> 7</span>Eliseu</a> 
+      <a href="#!" class="collection-item"><span class="badge"> 4</span>Daniel</a> 
+      <a href="#!" class="collection-item"><span class="badge"> 3</span>Thiago</a> 
+      <a href="#!" class="collection-item"><span class="badge"> 8</span>Carlos Eduardo</a>
+
+    </div>
+
+    <div class="container">
+        <h1>Preloader/Carregamento</h1>
+        <div class="card-panel blue white-text">
+            <p>Muitas das vezes os úsuarios das redes socias já se depararam com um carregamento. 
+                Isso auxilia no entendimento se o conteúdo levará muito tempo para carregar, dê um feedback ao usuário. Por esta razão, o Materialize fornece uma contidade de indicadores de carreganmento. Veja no exemplo abaixo:</p>
+        </div>
+        <h6>70% de 100%</h6>
+        <div class="progress">
+            <div class="determinate green" style="width: 70%;"></div>
+        </div>
+
+        <h6>Carregando...</h6>
+        <div class="progress">
+            <div class="indeterminate red"></div>
+        </div>
+
+        <h1>Circular</h1>
+        
+        <div class="card-panel blue white-text">
+            <p>Existem 4 cores e 3 tamanhos de carregamento circulares. O controle girátório é animado atraves do preloader-wrapper div. Os carregamentos circulares podem ser de tamanhos pequenos, grandes e medios. E suas cores são vermelho, azul, verde e amarelo.</p>
+        </div>
+
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue-only">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="preloader-wrapper active">
+            <div class="spinner-layer spinner-red-only">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="preloader-wrapper small active">
+            <div class="spinner-layer spinner-green-only">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+          </div>
+
+    </div>
+
 
 
     <!--Jquery-->
