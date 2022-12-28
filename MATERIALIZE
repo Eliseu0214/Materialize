@@ -187,6 +187,72 @@
 
     </div>
 
+<div class="container">
+        <h1>Table/Tabelas</h1>
+
+        <div class="card-panel blue white-text">
+            <p>As tabelas são uma boa maneira de organizar muitos dados. Fornecemos algumas classes utilitárias para ajudá-lo a estilizar sua mesa da maneira mais fácil possível. Além disso, para melhorar a experiência móvel, todas as tabelas nas larguras da tela móvel são centralizadas automaticamente.</p>
+        </div>
+
+        <table class="highlight">
+            <thead>
+              <tr>
+                  <th data-field="id">Nome</th>
+                  <th data-field="name">Nome dos Itens</th>
+                  <th data-field="price">Preço dos Itens</th>
+              </tr>
+            </thead>
+    
+            <tbody>
+              <tr>
+                <td>Carlos</td>
+                <td>bala</td>
+                <td>$1.00</td>
+              </tr>
+              <tr>
+                <td>Eliseu</td>
+                <td>jujuba</td>
+                <td>$3.76</td>
+              </tr>
+              <tr>
+                <td>Daniel</td>
+                <td>pirulito</td>
+                <td>$7.00</td>
+              </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container">
+        <h1>Typography</h1>
+        <h3>Headers/Cabeçalho</h3>
+        <div class="card-panel blue white-text">
+            <p>Fornecemos alguns estilos básicos em tags de cabeçalho.</br>
+             No exemplo, você pode ver os tamanhos diferentes das 6 tags de cabeçalho.</p>
+        </div>
+        
+        <h1>Heading h1</h1>
+        <h2>Heading h2</h2>
+        <h3>Heading h3</h3>
+        <h4>Heading h4</h4>
+        <h5>Heading h5</h5>
+        <h6>Heading h6</h6>
+
+    </div>
+
+    <div class="container">
+        <h3>Blockquotes/Citações em bloco</h3>
+        <div class="card-panel blue white-text">
+            <p>Blockquotes são usados ​​principalmente para dar ênfase a uma citação ou citação. Você também pode usá-los para alguma hierarquia e ênfase extra de texto.</p>
+        </div>
+
+        <blockquote>
+            Este é um exemplo de citação que usa a tag blockquote.</br>
+            Aqui está outra linha para fazer parecer maior.
+        </blockquote>
+    </div>
+
+
+
     <footer class="page-footer blue darken-4">
 
       <div class="container">
