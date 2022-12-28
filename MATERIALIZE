@@ -14,25 +14,33 @@
     
 </head>
 <body>
-    <nav>
-        <div class="nav-wrapper container">
-          <div class="col s12">
-            <a href="#!" class="breadcrumb">O que é?</a>
-            <a href="#!" class="breadcrumb">Componentes</a>
-            <a href="#!" class="breadcrumb right"><i class="tiny material-icons right">help_outline</i>Quer saber mais</a>
-          </div>
-        </div>
-      </nav>
-      <div class="right">
-    <img src="img/Materialize.jpg" class="responsive-img center">
-</div>
+    
+      <nav class=" blue darken-4 z-depth-0">
 
+        <div class="container">
+        <a href="#" class="brand-logo left">Materialize</a>
+
+          <ul id="nav-mobile" class="right ">
+            <li class="active"><a href="materializecss.com">Home</a></li>
+            <li><a href="componentes.html">Componentes</a></li>
+            <li><a href="#">Saiba mais</a></li> 
+            <i class="material-icons right">help_outline</i>
+          </ul>
+
+        </div>
+
+      </nav>
+
+    
+      <div class="center">
+        <img src="img/DEV.gif" class="responsive-img center">
+      </div>
 
     <div class="container">
         <h1>O que é Materialize</h1>
     </div>
    <div class="container"> 
-    <div class="card-panel  red lighten-2   z-depth-0 flow-text"> 
+    <div class="card-panel  blue   z-depth-0 flow-text white-text"> 
     <p>Maerialize é um framework Frond-End, ele surgiu atráves de um projeto desnvolvido pela Google e é inspirado no Material Design (desing utilizado no sistema operacional para smartphones Android desde a versão 5.0)
        Vale a pena resaltar que seus componentes são bem semelhantes aos do seu amigo Bootstrap. Materialize apresenta opções com disgn mais leve. Isto faz com que seu projeto fique visualmente mais agradável. 
     </p>
@@ -60,13 +68,6 @@
             Dessa forma, podemos dizer que o Materialize nada mais é do que um framework, que pode ser usado para tornar o desenvolvimento de sites e sistemas online muito mais dinâmico e fácil. É considerado por muitos uma alternativa ao tradicional Bootstrap, um dos frameworks mais conhecidos.</div>
     </div>
 
-    <div class="row container">
-        <div class="col s6 yellow">Em linguística, a noção de texto é ampla e ainda aberta a uma definição mais precisa. Grosso modo, pode ser entendido como manifestação linguística das ideias de um autor, que serão interpretadas pelo leitor de acordo com seus conhecimentos linguísticos e culturais. Seu tamanho é variável.          
-     </div>
-     <div class="col s6 blue hoverable">
-        Em linguística, a noção de texto é ampla e ainda aberta a uma definição mais precisa. Grosso modo, pode ser entendido como manifestação linguística das ideias de um autor, que serão interpretadas pelo leitor de acordo com seus conhecimentos linguísticos e culturais. Seu tamanho é variável.
-     </div>
-    </div>
 
     <!-- Essa é a parte de Botões, vou deixar os outros exemplos aqui -->
     <!-- <button href="#" type="submit" name="action" class="waves-effect waves-light btn-large"> <i class="material-icons right">Send</i> Enviar </button> -->
@@ -74,11 +75,24 @@
     <!-- <a class="btn-floating btn-large waves-effect waves-light red"><i class="tiny material-icons">settings</i></a> -->
 
     <div class="container">
-    <h1>Botão</h1>
-        <button href="#" class="btn waves-effect pink"> BOTÃOOOO</button>
+
+        <h1>Botão</h1>
+        <div class="card-panel blue white-text">
+          <p>
+            Existem 3 tipos principais de botões descritos no material design.
+             O botão elevado é um botão padrão que significa ações e procura dar profundidade a uma página quase plana.
+              O botão de ação circular flutuante destina-se a funções muito importantes.
+             Os botões planos geralmente são usados ​​em elementos que já possuem profundidade, como cartões ou modais.
+          </p>
+        </div>
+        <button href="#" class="btn waves-effect green"> BOTÃO</button>
     </br>
+        <h7>Botão de envio</h7>
+        <br>
         <button href="#" type="submit" name="action" class="waves-effect waves-light btn-large"> <i class="material-icons right">send</i> Enviar </button>
     </br>
+        <h7>Flutuante</h7>
+        <br>
         <a class="btn-floating btn-large waves-effect waves-light red"><i class="tiny material-icons">settings</i></a>
     </div>
     
@@ -173,11 +187,46 @@
 
     </div>
 
+    <footer class="page-footer blue darken-4">
+
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Trabalho finalizado <i class="material-icons">check</i> </h5>
+            <p class="grey-text text-lighten-4">Fontes tiradas do Youtube e do proprio Site do Materialize</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Contruibuidores</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Daniel</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Carlos Eduardo</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Claudineia </a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Eliseu</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+        <div class="container">
+        © 2014 Copyright Text
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+    </footer>
+        
+
 
 
     <!--Jquery-->
     <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
     <!--Materialize JS-->
     <script src="js/materialize.js"></script>
+
+    <!--Menu mobile-->
+    <script>
+     
+    $('.sidenav').sidenav();
+    </script>
 </body>
 </html>
