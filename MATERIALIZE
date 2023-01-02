@@ -74,6 +74,7 @@
 
     <!-- <a class="btn-floating btn-large waves-effect waves-light red"><i class="tiny material-icons">settings</i></a> -->
 
+    <!--Eliseu - Componentes-->
     <div class="container">
 
         <h1>Botão</h1>
@@ -82,7 +83,7 @@
             Existem 3 tipos principais de botões descritos no material design.
              O botão elevado é um botão padrão que significa ações e procura dar profundidade a uma página quase plana.
               O botão de ação circular flutuante destina-se a funções muito importantes.
-             Os botões planos geralmente são usados ​​em elementos que já possuem profundidade, como cartões ou modais.
+             Os botões planos geralmente são usados ​​em elementos que já possuem profundidade, como cartões ou modais. Observe os exemplos abaixo:
           </p>
         </div>
         <button href="#" class="btn waves-effect green"> BOTÃO</button>
@@ -99,9 +100,10 @@
     <!-- Collections ou listas -->
     <!-- É uma ferrmenta que ajuda para fazer lista, os exemplos estão aqui em baixo: -->
 
+    <!--Eliseu - Componentes-->
     <div class="collection container">
         
-        <h1>Listas</h1>
+        <h1>Collections/Listas</h1>
         <div class="card-panel blue white-text ">
             <p>Lista também são muito importantes para que aja uma organização, certo? Pois bem, o Materialize te disponibiliza com que o desenvolvedor crie listas. Veja o exemplo abaixo</p>
         </div>
@@ -111,6 +113,7 @@
         <a href="#!" class="collection-item">Eliseu</a> 
     </div>
     
+    <!--Eliseu - Componentes - Badges-->
     <div class=" collection container">
     <h1>Badges/Notificações</h1>
     <div class=" card-panel blue white-text">
@@ -127,6 +130,7 @@
 
     </div>
 
+    <!--Eliseu - Componentes - Preloader-->
     <div class="container">
         <h1>Preloader/Carregamento</h1>
         <div class="card-panel blue white-text">
@@ -143,7 +147,7 @@
             <div class="indeterminate red"></div>
         </div>
 
-        <h1>Circular</h1>
+        <h1>Circular/Preloader</h1>
         
         <div class="card-panel blue white-text">
             <p>Existem 4 cores e 3 tamanhos de carregamento circulares. O controle girátório é animado atraves do preloader-wrapper div. Os carregamentos circulares podem ser de tamanhos pequenos, grandes e medios. E suas cores são vermelho, azul, verde e amarelo.</p>
@@ -187,72 +191,261 @@
 
     </div>
 
-<div class="container">
-        <h1>Table/Tabelas</h1>
-
-        <div class="card-panel blue white-text">
-            <p>As tabelas são uma boa maneira de organizar muitos dados. Fornecemos algumas classes utilitárias para ajudá-lo a estilizar sua mesa da maneira mais fácil possível. Além disso, para melhorar a experiência móvel, todas as tabelas nas larguras da tela móvel são centralizadas automaticamente.</p>
-        </div>
-
-        <table class="highlight">
-            <thead>
-              <tr>
-                  <th data-field="id">Nome</th>
-                  <th data-field="name">Nome dos Itens</th>
-                  <th data-field="price">Preço dos Itens</th>
-              </tr>
-            </thead>
+    <!--Claudineia - CSS - Grid/Rede-->
+    <br>
+    <div class="container">
+      <h1>Grid/Rede</h1>
     
-            <tbody>
-              <tr>
-                <td>Carlos</td>
-                <td>bala</td>
-                <td>$1.00</td>
-              </tr>
-              <tr>
-                <td>Eliseu</td>
-                <td>jujuba</td>
-                <td>$3.76</td>
-              </tr>
-              <tr>
-                <td>Daniel</td>
-                <td>pirulito</td>
-                <td>$7.00</td>
-              </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="container">
-        <h1>Typography</h1>
-        <h3>Headers/Cabeçalho</h3>
-        <div class="card-panel blue white-text">
-            <p>Fornecemos alguns estilos básicos em tags de cabeçalho.</br>
-             No exemplo, você pode ver os tamanhos diferentes das 6 tags de cabeçalho.</p>
-        </div>
-        
-        <h1>Heading h1</h1>
-        <h2>Heading h2</h2>
-        <h3>Heading h3</h3>
-        <h4>Heading h4</h4>
-        <h5>Heading h5</h5>
-        <h6>Heading h6</h6>
-
+      <div class="card-panel blue white-text">
+        <p>A grade padrão tem 12 colunas, não importa o tamanho do navegador, casa uma dessas colunas sempre tera a mesma</p>
+      </div>
     </div>
 
     <div class="container">
-        <h3>Blockquotes/Citações em bloco</h3>
-        <div class="card-panel blue white-text">
-            <p>Blockquotes são usados ​​principalmente para dar ênfase a uma citação ou citação. Você também pode usá-los para alguma hierarquia e ênfase extra de texto.</p>
+      <div class="row">
+        <div class="col s12 m6 l4 blue accent1">
+          <h1>4</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 l4 teal darken4">
+          <h1>8</h1>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col s12 m6 l4 blue darken1">
+            <h1>4</h1>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 l4 offset l4 teal darken1">
+          <h1>4</h1>
+        </div>
+      </div>
+    </div>
+      <!--Claudineia - Helpers/ajudantes-->
+      <div class="container">
+        <h1>Helpers/ajudantes/alinhamento</h1>
+
+        <div class="card-panel teal darken-3 white-text">
+          <div class="valign-wrapper">
+            <h3>Isso deve ser alinhado verticalmente</h3>
+          </div>
+        </div>
+          <br>
+        <div>
+          <div class="card-panel teal darken-4 white-text">
+            <h4 class="left-align">Isso deve ser alinhado a esquerda</h4>
+          </div>
+        </div>
+          <br>
+        <div>
+          <div class="card-panel teal darken-4 white-text">
+            <h4 class="center">Isso deve ser alinhado no centro</h4>
+          </div>
         </div>
 
-        <blockquote>
-            Este é um exemplo de citação que usa a tag blockquote.</br>
-            Aqui está outra linha para fazer parecer maior.
-        </blockquote>
+      </div>
+
+      <!--Claudineia - Componentes - Navbar/barra de navegação-->
+      <div class="container">
+        <h1>Navbar/barra de navegação</h1>
+
+        <nav class="blue z-depth-0 responsive">
+
+            <div class="nav-wrapper container" exponsive>
+              
+              <a href="#" class="brand-logo left">SENAC</a>
+
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Senac Goias</a></li>
+                  <li><a href="badges.html">Cursos</a></li>
+                  <li><a href="collapseble.html">Faculdade</a></li>
+                  <li><a href="collapsible.html">Capacitar-Senac</a></li>
+              </ul>
+            </div>
+        </nav>
+
+        <!--Eliseu - Componentes - Navbar/barra de pesquisa-->
+        <nav>
+          <div class="nav-wrapper blue darken-4">
+            <form>
+              <div class="input-field">
+                <input id="search" type="search" required>
+                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                <i class="material-icons">close</i>
+              </div>
+            </form>
+          </div>
+        </nav>
+      </div>
+
+        <!--Claudineia - Componentes - Cards -->
+
+         
+           <div class="col s12 m7 container ">
+             <div class="card">
+                <h2 class="header">Simples Card</h2>
+                <div class="card-image">
+                 <img src="img/caldas-externo.jpg">
+                  <span class="card-title">SENAC</span>
+                </div>
+                <div class="card-content blue darken-3 white-text">
+                  <p>Eu sou um cartão muito simples, pois posso conter pequenas informações e não preciso de muita marcação</p>
+                </div>
+                <div class="card-action blue darken-4">
+                  <a href="#">Saiba Mais</a>
+                </div>
+             </div>
+           </div>
+          
+         <div class="col s12 m7 container">
+            <h2 class="header">Horizontal Card</h2>
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="img/caldas-externo.jpg">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content blue darken-3 white-text">
+                  <p>Eu sou um cartão muito simples horizontal, pois posso conter pequenas informações e não preciso de muita marcação.</p>
+                </div>
+                  <div class="card-action blue darken-4">
+                   <a href="#">Isto é um Link</a>
+                  </div>
+             </div>
+          </div>
+      </div>
     </div>
 
+    <!--Claudineia - Componentes - Paginação/Pagination-->
+    <div class="container">
+      <h1>Paginação</h1>
+        <div class="card-panel blue white-text">
+          <h2>Adicione Links de Paginação para ajudar a dividr seu conteúdo longo em blocos mais curtos e faceis de entender.</h2>
+        </div>
 
+        <ul class="pagination">
+          <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+          <li class="active"><a href="#!">1</a></li>
+          <li class="waves-effect"><a href="#!">2</a></li>
+          <li class="waves-effect"><a href="#!">3</a></li>
+          <li class="waves-effect"><a href="#!">4</a></li>
+          <li class="waves-effect"><a href="#!">5</a></li>
+          <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
+    </div>
 
+    <!--Daniel - CSS - Tabelas/Table-->
+    <div class="container">
+      <h1>Table/Tabelas</h1>
+
+      <div class="card-panel blue white-text">
+        <p>As tabelas são uma boa maneira de organizar muitos dados. 
+          Fornecemos algumas classes utilitárias para ajudá-lo a estilizar sua mesa da maneira mais fácil possível.
+           Além disso, para melhorar a experiência móvel, todas as tabelas nas larguras da tela móvel são centralizadas automaticamente. Veja o exemplo abaixo: </p>
+      </div>
+
+      <table class="hightlight">
+        <thead>
+          <tr>
+            <th data-field="id" class="center">Nome</th>
+            <th data-field="name" class="center">Produto</th>
+            <th data-field="price" class="center">Preço dos Itens</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td class="center">Carlos</td>
+            <td class="center">Bala</td>
+            <td class="center">$1.00</td>
+          </tr>
+
+          <tr>
+            <td class="center">Eliseu</td>
+            <td class="center">Jujuba</td>
+            <td class="center">$4.00</td>
+          </tr>
+
+          <tr>
+            <td class="center">Daniel</td>
+            <td class="center">Pirulito</td>
+            <td class="center">$7.00</td>
+          </tr>
+          
+          <tr>
+            <td class="center">Claudineia</td>
+            <td class="center">Chocolate</td>
+            <td class="center">$5.00</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+    
+    <!--Daniel - CSS - Typography/Tipografia-->
+    <div class="container">
+      <h1>Typography</h1>
+      <h3>Headrs/Cabeçalho</h3>
+      <div class="card-panel blue white-text">
+        <p>Fornecemos alguns estilos básicos em tags de cabeçalho.
+          No exemplo abaixo, você pode observar os tamanhos diferentes das 6 tags de cabeçalho.
+        </p>
+
+        <h1>Cabeçalho h1</h1>
+        <h2>Cabeçalho h2</h2>
+        <h3>Cabeçalho h3</h3>
+        <h4>Cabeçalho h4</h4>
+        <h5>Cabeçalho h5</h5>
+        <h6>Cabeçalho h6</h6>
+
+      </div>
+    </div>
+
+    <!--Daniel - CSS - Blockquotes/Citações em bloco-->
+    <div class="container">
+      <h1>Blockquotes/Citações em bloco</h1>
+
+      <div class="card-panel blue white-text flow-text">
+        <p>Blockquotes são usados ​​principalmente para dar ênfase a uma citação ou citação.
+           Você também pode usá-los para alguma hierarquia e ênfase extra de texto.
+            Veja o exemplo abaixo:
+          </p>
+      </div>
+
+      <blockquote >
+        Esse é um exemplo de citação que usa a tag blockquote. <br>
+        Aqui está outra linha para que tenha um aumento de tamanho.
+      </blockquote>
+    </div>
+
+    <!--Daniel - Css - CSS Transitions-->
+    <div class="container">
+      <h1>CSS Transitions</h1>
+
+      <div class="card-panel blue white-text">
+        <p>Animações personalizadas que farão a transição do seu conteúdo apenas com CSS.<br>
+         Cada transição CSS consiste em uma classe base que aplica os estilos necessários e classes adicionais que controlam o estado da transições</p>
+      </div>
+
+      <!-- Scaled out -->
+  <a id="scale-demo" href="#!" class="btn-floating btn-large scale-transition scale-out">
+    <i class="material-icons">add</i>
+  </a>
+
+    <!-- Scaled in -->
+        <a id="scale-demo" href="#!" class="btn-floating btn-large scale-transition">
+          <i class="material-icons">add</i>
+        </a>
+
+  <a id="scale-demo-trigger" href="#!" class="btn right">
+    <font style="vertical-align: inherit;">
+    <font style="vertical-align: inherit;">Escala de Alterância</font></font>
+  </a>
+    </div>
+
+    
+    <!--Eliseu - Componentes - Footer-->
     <footer class="page-footer blue darken-4">
 
       <div class="container">
