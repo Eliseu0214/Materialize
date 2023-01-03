@@ -52,19 +52,19 @@
     </blockquote>
 </div>
     <div class="row container" >
-        <div class="card-panel s12 m6 l6 red white-text">
+        <div class="card-panel s12 m6 l6  blue darken-1 white-text">
             O Materialize pode ser usado para tornar o desenvolvimento de sites e sistemas online muito mais dinâmico e fácil.
              É considerado por muitos uma alternativa ao tradicional Bootstrap, um dos frameworks mais conhecidos.</div>
 
-        <div class="card-panel s12 m6 l6 blue white-text">O framework Materialize oferece uma grande variedade de beneficios, o que explica o seu sucesso entre os programadores.</div>
+        <div class="card-panel s12 m6 l6 blue darken-2 white-text">O framework Materialize oferece uma grande variedade de beneficios, o que explica o seu sucesso entre os programadores.</div>
        
     </div>
 
     <div class="row container">
-        <div class="card-panel s12 red">O que é materialize
+        <div class="card-panel s12 blue darken-3 white-text">O que é materialize
             Dessa forma, podemos dizer que o Materialize nada mais é do que um framework, 
             que pode ser usado para tornar o desenvolvimento de sites e sistemas online muito mais dinâmico e fácil. É considerado por muitos uma alternativa ao tradicional Bootstrap, um dos frameworks mais conhecidos.</div>
-        <div class="card-panel s12 green">O que é materialize
+        <div class="card-panel s12 blue darken-4 white-text">O que é materialize
             Dessa forma, podemos dizer que o Materialize nada mais é do que um framework, que pode ser usado para tornar o desenvolvimento de sites e sistemas online muito mais dinâmico e fácil. É considerado por muitos uma alternativa ao tradicional Bootstrap, um dos frameworks mais conhecidos.</div>
     </div>
 
@@ -78,7 +78,7 @@
     <div class="container">
 
         <h1>Botão</h1>
-        <div class="card-panel blue white-text">
+        <div class="card-panel blue darken-4 white-text">
           <p>
             Existem 3 tipos principais de botões descritos no material design.
              O botão elevado é um botão padrão que significa ações e procura dar profundidade a uma página quase plana.
@@ -104,7 +104,7 @@
     <div class="collection container">
         
         <h1>Collections/Listas</h1>
-        <div class="card-panel blue white-text ">
+        <div class="card-panel blue darken-3 white-text ">
             <p>Lista também são muito importantes para que aja uma organização, certo? Pois bem, o Materialize te disponibiliza com que o desenvolvedor crie listas. Veja o exemplo abaixo</p>
         </div>
 
@@ -116,7 +116,7 @@
     <!--Eliseu - Componentes - Badges-->
     <div class=" collection container">
     <h1>Badges/Notificações</h1>
-    <div class=" card-panel blue white-text">
+    <div class=" card-panel blue darken-2 white-text">
         <p>Badges é um componente do Materialize que auxilia no desenvolvimento de menssagens e notificações. Os Badges podem notificá-lo de que há mensagens ou notificações novas ou não lidas. 
             Veja no exemplo abaixo:
         </p>
@@ -133,7 +133,7 @@
     <!--Eliseu - Componentes - Preloader-->
     <div class="container">
         <h1>Preloader/Carregamento</h1>
-        <div class="card-panel blue white-text">
+        <div class="card-panel blue darken-1 white-text">
             <p>Muitas das vezes os úsuarios das redes socias já se depararam com um carregamento. 
                 Isso auxilia no entendimento se o conteúdo levará muito tempo para carregar, dê um feedback ao usuário. Por esta razão, o Materialize fornece uma contidade de indicadores de carreganmento. Veja no exemplo abaixo:</p>
         </div>
@@ -188,7 +188,6 @@
               </div>
             </div>
           </div>
-
     </div>
 
     <!--Claudineia - CSS - Grid/Rede-->
@@ -197,7 +196,7 @@
       <h1>Grid/Rede</h1>
     
       <div class="card-panel blue white-text">
-        <p>A grade padrão tem 12 colunas, não importa o tamanho do navegador, casa uma dessas colunas sempre tera a mesma</p>
+        <p>Estamos usando um sistema de grade responsivo a fluido padrão de 12 colunas. A grade ajuda você a fazer o layout de sua página de maneira ordenada e fácil.</p>
       </div>
     </div>
 
@@ -250,6 +249,8 @@
       <!--Claudineia - Componentes - Navbar/barra de navegação-->
       <div class="container">
         <h1>Navbar/barra de navegação</h1>
+        <div class="card-panel blue white-text">A barra de navegação é totalmente contida por uma tag HTML5 Nav. Dentro de um contêiner div recomendado, existem 2 partes principais da barra de navegação. Um logotipo ou link da marca e os links de navegação.
+           Você pode alinhar esses links à esquerda ou à direita.</div>
 
         <nav class="blue z-depth-0 responsive">
 
