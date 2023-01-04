@@ -41,7 +41,7 @@
     </div>
    <div class="container"> 
     <div class="card-panel  blue   z-depth-0 flow-text white-text"> 
-    <p>Maerialize é um framework Frond-End, ele surgiu atráves de um projeto desnvolvido pela Google e é inspirado no Material Design (desing utilizado no sistema operacional para smartphones Android desde a versão 5.0)
+    <p>Materialize é um framework Frond-End, ele surgiu atráves de um projeto desnvolvido pela Google e é inspirado no Material Design (desing utilizado no sistema operacional para smartphones Android desde a versão 5.0)
        Vale a pena resaltar que seus componentes são bem semelhantes aos do seu amigo Bootstrap. Materialize apresenta opções com disgn mais leve. Isto faz com que seu projeto fique visualmente mais agradável. 
     </p>
     </div>
