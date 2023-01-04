@@ -64,10 +64,19 @@
         <div class="card-panel s12 blue darken-3 white-text">O que é materialize
             Dessa forma, podemos dizer que o Materialize nada mais é do que um framework, 
             que pode ser usado para tornar o desenvolvimento de sites e sistemas online muito mais dinâmico e fácil. É considerado por muitos uma alternativa ao tradicional Bootstrap, um dos frameworks mais conhecidos.</div>
-        <div class="card-panel s12 blue darken-4 white-text">O que é materialize
-            Dessa forma, podemos dizer que o Materialize nada mais é do que um framework, que pode ser usado para tornar o desenvolvimento de sites e sistemas online muito mais dinâmico e fácil. É considerado por muitos uma alternativa ao tradicional Bootstrap, um dos frameworks mais conhecidos.</div>
     </div>
 
+    <div class="container">
+      <h1>Benefícios do Materialize</h1>
+
+      <div class="card-panel blue white-text">O framework Materialize oferece uma grande variedade de benefícios, o que explica o seu sucesso entre os programadores. Fizemos uma lista desses benefícios abaixo.</div>
+      <h1 class="blue-text">1.Acelera o desenvolvimento</h1>
+      <div class="card-panel blue white-text">Os desenvolvedores do framework fizeram a maior parte do trabalho pesado.
+         Dessa forma, foram capazes de fornecer um estilo padrão que incorpora os componentes personalizados.<br> Além disso, as animações e as transições foram refinadas para proporcionar uma experiência mais suave aos desenvolvedores.</div>
+      <h2 class="blue-text">2.Experiência do Usuário Focada</h2>
+      <div class="card-panel blue white-text">Utilizando elementos e princípios do Material Design, as mentes por trás do Materialize foram capazes de criar uma estrutura que incorpora componentes e animações que fornecem mais feedback aos usuários. <br> Além disso, um único sistema responsivo subjacente em todas as plataformas permite uma experiência do usuário mais unificada.</div>
+     
+    </div>
 
     <!-- Essa é a parte de Botões, vou deixar os outros exemplos aqui -->
     <!-- <button href="#" type="submit" name="action" class="waves-effect waves-light btn-large"> <i class="material-icons right">Send</i> Enviar </button> -->
@@ -117,7 +126,7 @@
     <div class=" collection container">
     <h1>Badges/Notificações</h1>
     <div class=" card-panel blue darken-2 white-text">
-        <p>Badges é um componente do Materialize que auxilia no desenvolvimento de menssagens e notificações. Os Badges podem notificá-lo de que há mensagens ou notificações novas ou não lidas. 
+        <p>Badges é um componente do Materialize que auxilia no desenvolvimento de menssagens e notificações.<br> Os Badges podem notificá-lo de que há mensagens ou notificações novas ou não lidas. 
             Veja no exemplo abaixo:
         </p>
     </div>
@@ -134,8 +143,7 @@
     <div class="container">
         <h1>Preloader/Carregamento</h1>
         <div class="card-panel blue darken-1 white-text">
-            <p>Muitas das vezes os úsuarios das redes socias já se depararam com um carregamento. 
-                Isso auxilia no entendimento se o conteúdo levará muito tempo para carregar, dê um feedback ao usuário. Por esta razão, o Materialize fornece uma contidade de indicadores de carreganmento. Veja no exemplo abaixo:</p>
+            <p>Muitas das vezes os úsuarios das redes socias já se depararam com um carregamento. <br> Isso auxilia no entendimento se o conteúdo levará muito tempo para carregar, dê um feedback ao usuário.<br> Por esta razão, o Materialize fornece uma contidade de indicadores de carreganmento. Veja no exemplo abaixo:</p>
         </div>
         <h6>70% de 100%</h6>
         <div class="progress">
