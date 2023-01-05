@@ -41,7 +41,7 @@
     </div>
    <div class="container"> 
     <div class="card-panel  blue   z-depth-0 flow-text white-text"> 
-    <p>Materialize é um framework Frond-End, ele surgiu atráves de um projeto desnvolvido pela Google e é inspirado no Material Design (desing utilizado no sistema operacional para smartphones Android desde a versão 5.0)
+    <p>Maerialize é um framework Frond-End, ele surgiu atráves de um projeto desnvolvido pela Google e é inspirado no Material Design (desing utilizado no sistema operacional para smartphones Android desde a versão 5.0)
        Vale a pena resaltar que seus componentes são bem semelhantes aos do seu amigo Bootstrap. Materialize apresenta opções com disgn mais leve. Isto faz com que seu projeto fique visualmente mais agradável. 
     </p>
     </div>
@@ -63,7 +63,7 @@
     <div class="row container">
         <div class="card-panel s12 blue darken-3 white-text">O que é materialize
             Dessa forma, podemos dizer que o Materialize nada mais é do que um framework, 
-            que pode ser usado para tornar o desenvolvimento de sites e sistemas online muito mais dinâmico e fácil. É considerado por muitos uma alternativa ao tradicional Bootstrap, um dos frameworks mais conhecidos.</div>
+            que pode ser usado para tornar o desenvolvimento de sites e sistemas online muito mais dinâmico e fácil.</div>
     </div>
 
     <div class="container">
@@ -215,7 +215,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col s12 m6 l8 teal darken4">
+        <div class="col s12 m6 l4 teal darken4">
           <h1>8</h1>
         </div>
       </div>
@@ -453,7 +453,98 @@
   </a>
     </div>
 
+
+
+    <!--Carlos-->
+    <div class="container">
+      <h1>Media CSS</h1>
+
+      <div class="card-panel blue white-text">
+        <p>Função para ajudar na formatação das imagens e vídeos colocadas no Site</p>
+      </div>
+    </div>
+    <div class="container">
+      <h3>Imagens</h3>
+
+      <div class="card-panel blue white-text">
+        <p>As imagens podem ser formatadas de diferentes jeitos usando Materialize são elas:</p>
+      </div>
+    </div>
+    <div class="container">
+      <h3>Imagens Responsivas</h3>
+
+      <div class="card-panel blue white-text">
+        <p>Para fazer com que as imagens sejam redimensionadas responsivamente na largura da página, você pode adicionar a classe responsive-img para a sua etiqueta de imagem. Agora terá um max-width: 100% e height:auto.</p>
+        <P>Exemplo:</P>
+      </div>
+    </div>
+    <div class="container">
+      <img class="responsive-img" src="https://files.aredacao.com.br/upload/content/fecomercio-go-e-senac-oferecem-mais-de-3-mil-vagas-em-cursos-gratuitos.jpg">
+    </div>
+    <div class="container">
+      <h3>Imagens Circulares</h3>
+
+      <div class="card-panel blue white-text">
+        <p>Para fazer as imagens parecerem circulares, basta adicionar class="circle" para elas</p>
+        <p>Exemplo:</p>
+      </div>
+    </div>
+    <div class="col s12 m8 offset-m2 l6 offset-l3 container">
+      <div class="card-panel blue z-depth-1">
+        <div class="row valign-wrapper">
+          <div class="col s2">
+            <img src="https://files.aredacao.com.br/upload/content/fecomercio-go-e-senac-oferecem-mais-de-3-mil-vagas-em-cursos-gratuitos.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+          </div>
+          <div class="col s10">
+            <span class="white-text">
+              Esse é um exemplo de imagem circular
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h3>Vídeos</h3>
+    </div>
+    <div class="container">
+      <h4>Incorporações Responsivas</h4>
+
+      <div class="card-panel blue white-text">
+        <p>Incorporar significa pegar o seu vídeo ou o vídeo de alguém (por um link) e colocá-lo em seu site </p>
+        <p>Para tornar suas incorporações responsivas, basta envolvê-las com uma div que contém a classe "video-container"</p>
+        <p>Exemplo: </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="responsive-video">
+       <iframe width="1031" height="580" src="https://www.youtube.com/embed/k2QoQLaP7Lc" title="O que é Materialize? - Materialize #01" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="container">
+      <h4>Vídeos Responsivos</h4>
+
+      <div class="card-panel blue white-text">
+        <p>Para tornar seus vídeos responsivos, basta adicionar a classe "responsive-video" para a tag de vídeo</p>
+        <p>Exemplo:</p>
+      </div>
+    </div>
+    <video class="responsive-video" controls>
+      <source src="img/O que é Materialize_ - Materialize #01.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+      <h1>Pulse</h1>
+
+      <div class="card-panel blue white-text">
+        <p>A função pulse adiciona um efeito de pulsar aos botões e para adicioná-la basta apenas adicionar a classe pulse em seu botão</p>
+        <p>Exemplo:</p>
+      </div>
+      <a class="btn-floating pulse"><i class="material-icons">menu</i></a>
+      <br>
+      .
+      </div>
+
     
+      
     <!--Eliseu - Componentes - Footer-->
     <footer class="page-footer blue darken-4">
 
@@ -477,12 +568,16 @@
 
       <div class="footer-copyright">
         <div class="container">
-        © 2014 Copyright Text
-        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          Apresentado 2023
+        <a class="grey-text text-lighten-4 right" href="#!">Obrigado pela atenção!</a>
         </div>
       </div>
     </footer>
         
+
+
+   
+      
 
 
 
